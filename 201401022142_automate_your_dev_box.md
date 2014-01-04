@@ -7,14 +7,61 @@ The looming upgrade of my Macbook Pro, along with the first employee starting at
 
 
 ## The tools
+I currently run OSX 10.9, and the automation tools I currently use (and describe below) are specific to Macs. Although I will chat about some Linux & Windows equivilents, and the current lay of the land. Generally I feel Linux friends are at a bit of an advantage here - as package management tools such as apt, yum or RPM come pre-installed - and creating a simple bash script to automate this is as easy as pie.
 
-I run OSX, and the automation tools I currently use (and describe below) are specific to Macs. Although I will chat about some Linux & Windows equivilents, and the current lay of the land. Generally I feel Linux friends are at a bit of an advantage here - as package management tools such as apt, yum or RPM come pre-installed - and creating a simple bash script to automate this is as easy as pie.
+I have a bunch of [scripts up on Github](https://github.com/chrisrickard/laptop.osx) I use to setup machines, below I will run through each component used.
 
 
+## Disclaimer
+This is not currently 100% automated... I know, I know - stop going on about it. To install XCode tools you have to click a button :/
 
 ## My setup
+# Pre-reqs
+Before installing anything else, I require XCode Command Line Tools, this is a simple install in Maverics, byt simply throwing `xcode-select --install` into a terminal.. Now unfortunately this is the part where you have to click a button to install. Yawn.
+
+{<1>}![XCode Command Line tools installer](https://chrisrickard.s3.amazonaws.com/img/xcode-cmd-install.png)
 
 
+# Homebrew
+> Homebrew installs the stuff you need that Apple didn’t.
+
+[Homebrew](http://brew.sh/) is an OSX based package manager (built on top of Ruby and Git), that allows you to easily install packages via the command line.
+It has [a bunch](https://github.com/Homebrew/homebrew/tree/master/Library/Formula) of "formulae" (packages), and also allows you to easily brew your own.
+
+Installing Homebrew is as easy as drinking someones homemade beer:
+
+`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+
+Once installed, you can simply type `brew search <packagename>` to search for a particular package, or without the parameter to show all.
+To install a package, it's as simple as `brew install <packagename>` for example, to install NodeJS you would run `brew install node`
+
+
+# Homebrew Cask
+> "To install, drag this icon..." no more!
+
+[Homebrew Cask](https://github.com/phinze/homebrew-cask) was the catalyst behind me deciding to script my dev setup. A command line tool for install OSX binaries (.app's). I was always jealous of Linux package managers such as apt-get, as it seemed to have everything - both CLI and GUI apps, and with Homebrew and Cask in your arsonry, life is better.
+Built on-top of Homebrew, Cask also has a [a bunch](https://github.com/phinze/homebrew-cask/tree/master/Casks) of "casks" (apps), and once again - allows you to easily bottle your own.
+
+To get your cask on, simply type:
+
+`brew tap phinze/cask
+ brew install brew-cask`
+
+To search (or list) packages run `brew cask search <packagename>`, or without the parameter to show all.
+Similar to Homebrew, installing a package (such as Chrome) is as easy as running `brew cask install google-chrome`
+
+
+# Mackup
+
+
+# My setup
+
+The default packages I currently install with Homebrew are coreutils (GNU coreutils), git, and vim.
+
+`brew install coreutils git vim`
+
+
+# Git
 
 
 ---
