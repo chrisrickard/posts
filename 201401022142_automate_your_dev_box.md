@@ -1,4 +1,4 @@
-Automating the setup and configuration of your development You free yourself from the fear of a reinstall and laugh in the face of danger. "Mwuhaha!" you say to that towering beast known as Harddrivius-Failurius. Some people report a new found swagger in their walk.
+Automating the setup and configuration of your development is liberating. You free yourself from the fear of a reinstall and laugh in the face of danger. "Mwuhaha!" you say to that towering beast known as Harddrivius-Failurius. Some people even report a new found swagger in their walk.
 
 
 The looming upgrade of my Macbook Pro, along with the first employee starting at [inoutput](http://inoutput.io) (the software company I run with the handsome James Cole),  were the catalysts that sent me on the search for automation. I am pretty late to the game here, but happy I discovered the game at all.
