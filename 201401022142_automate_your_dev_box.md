@@ -1,7 +1,7 @@
-Automating the setup and configuration of your development is liberating. You free yourself from the fear of a reinstall and laugh in the face of danger. "Mwuhaha!" you say to that towering beast known as Harddrivius-Failurius. Some people even report a new found swagger in their walk.
+Automating the setup and configuration of your development environment is liberating. You free yourself from the fear of a reinstall and laugh in the face of danger. "Mwuhaha!" you say to that towering beast known as Harddrivius-Failurius. Some people even report a new found swagger in their walk.
 
 
-The looming upgrade of my Macbook Pro, along with the first employee starting at [inoutput](http://inoutput.io) (the software company I run with the handsome James Cole),  were the catalysts that sent me on the search for automation. I am pretty late to the game here, but happy I discovered the game at all.
+The looming upgrade of my Macbook Pro, along with the first employee starting at [inoutput](http://inoutput.io) (the software company I run with the handsome James Cole),  were the catalysts that sent me on the search for automation.
 
 Below I talk about the tools I use to automate my setup. It's probably not perfect, but I feel it's a good first draft. It's also not currently 100% automated... To install XCode command-line tools you have to click a button. Doh.
 
