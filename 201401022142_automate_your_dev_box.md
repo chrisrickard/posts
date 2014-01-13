@@ -42,7 +42,7 @@ To install a package, it's as simple as `brew install <packagename>` for example
 ## Homebrew Cask
 > "To install, drag this icon..." no more!
 
-[Homebrew Cask](https://github.com/phinze/homebrew-cask) was the catalyst behind me deciding to script my dev setup. A command line tool for install OSX binaries (.app's). I was always a bit jealous of Linux package managers such as apt-get, as they seemed to have everything you would need. Cask doesn't have *everything* but it certainly has a lot, and with Homebrew and Cask in your arsonry - life is better one.
+[Homebrew Cask](https://github.com/phinze/homebrew-cask) was the catalyst behind me deciding to script my dev setup. A command line tool for install OSX binaries (.app's). I was always a bit jealous of Linux package managers such as apt-get, as they seemed to have everything you would need. Cask doesn't have *everything* but it certainly has a lot, and with Homebrew and Cask in your arsonal - life is better one.
 Built on-top of Homebrew, Cask also has [a bunch](https://github.com/phinze/homebrew-cask/tree/master/Casks) of "casks" (apps), and once again - allows you to easily bottle your own.
 
 To get your cask on, simply type:
